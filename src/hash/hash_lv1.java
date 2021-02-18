@@ -34,6 +34,7 @@ public class hash_lv1 {
 		String[] participant = {"mislav","stanko", "mislav", "stanko"};
 		String[] completion = {"stanko", "ana", "mislav"};
 		System.out.println(solution(participant, completion));
+		System.out.println(2500 > 600 ? 1 : -1);
 	}
 	
  public static String solution(String[] participant, String[] completion) {
