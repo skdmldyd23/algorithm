@@ -41,7 +41,7 @@ import java.util.Map.Entry;
  * 2. blue_sunglasses
  * 3. smoky_makeup
  */
-public class hash_lv2_2 {
+public class Q3_전화번호목록_hash_lv2 {
 	public static void main(String[] args) {
 		String[][] clothes = {{"yellow_hat","headgear"},{"blue_sunglasses","eyewear"},{"green_turban","headgear"}};
 		System.out.println(solution(clothes));

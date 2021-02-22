@@ -28,7 +28,7 @@ import java.util.HashMap;
  * 예제 #3
  * mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 한 명밖에 없기 때문에 한명은 완주하지 못했습니다.
  */
-public class hash_lv1 {
+public class Q1_완주하지못한선수_hash_lv1 {
 
 	public static void main(String[] args) {
 		String[] participant = {"mislav","stanko", "mislav", "stanko"};

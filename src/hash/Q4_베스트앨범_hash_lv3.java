@@ -41,7 +41,7 @@ import java.util.stream.Collectors;
  * 
  * ※ 공지 - 2019년 2월 28일 테스트케이스가 추가되었습니다.
  */
-public class hash_lv3 {
+public class Q4_베스트앨범_hash_lv3 {
 	public static void main(String[] args) {
 		String[] genres = { "classic", "pop", "classic", "classic", "pop" };
 		int[] plays = { 500, 600, 150, 800, 2500 };

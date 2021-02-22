@@ -28,7 +28,7 @@ package hash;
  * 입출력 예 #3
  * 첫 번째 전화번호, “12”가 두 번째 전화번호 “123”의 접두사입니다. 따라서 답은 false입니다.
 */
-public class hash_lv2 {
+public class Q2_위장_hash_lv2 {
 	
 public static void main(String[] args) {
 	String[] phone_book = {"119", "97674223", "1195524421"};
