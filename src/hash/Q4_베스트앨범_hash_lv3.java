@@ -53,6 +53,7 @@ public class Q4_海胶飘举裹_hash_lv3 {
 		String genre = "";
 		String play_s = "";
 		int play_i = 0;
+		ArrayList<String> temp = null;
 		HashMap<String, ArrayList<String>> album = new HashMap<String, ArrayList<String>>();
 		HashMap<String, Integer> album_total = new HashMap<String, Integer>();
 		for (int i = 0; i < genres.length; ++i) {
@@ -66,7 +67,7 @@ public class Q4_海胶飘举裹_hash_lv3 {
 				continue;
 			}
 
-			ArrayList<String> temp = new ArrayList<String>();
+			temp = new ArrayList<String>();
 			temp.add(play_s);
 			album.put(genre, temp);
 			album_total.put(genre, play_i);
